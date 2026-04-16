@@ -1,1 +1,72 @@
 There is a start point for my own Education project  
+
+{                                                                                  │
+│    "display_information": {                                                         │
+│      "name": "OpenClaw",                                                            │
+│      "description": "OpenClaw connector for OpenClaw"                               │
+│    },                                                                               │
+│    "features": {                                                                    │
+│      "bot_user": {                                                                  │
+│        "display_name": "OpenClaw",                                                  │
+│        "always_online": true                                                        │
+│      },                                                                             │
+│      "app_home": {                                                                  │
+│        "messages_tab_enabled": true,                                                │
+│        "messages_tab_read_only_enabled": false                                      │
+│      },                                                                             │
+│      "slash_commands": [                                                            │
+│        {                                                                            │
+│          "command": "/openclaw",                                                    │
+│          "description": "Send a message to OpenClaw",                               │
+│          "should_escape": false                                                     │
+│        }                                                                            │
+│      ]                                                                              │
+│    },                                                                               │
+│    "oauth_config": {                                                                │
+│      "scopes": {                                                                    │
+│        "bot": [                                                                     │
+│          "app_mentions:read",                                                       │
+│          "assistant:write",                                                         │
+│          "channels:history",                                                        │
+│          "channels:read",                                                           │
+│          "chat:write",                                                              │
+│          "commands",                                                                │
+│          "emoji:read",                                                              │
+│          "files:read",                                                              │
+│          "files:write",                                                             │
+│          "groups:history",                                                          │
+│          "groups:read",                                                             │
+│          "im:history",                                                              │
+│          "im:read",                                                                 │
+│          "im:write",                                                                │
+│          "mpim:history",                                                            │
+│          "mpim:read",                                                               │
+│          "mpim:write",                                                              │
+│          "pins:read",                                                               │
+│          "pins:write",                                                              │
+│          "reactions:read",                                                          │
+│          "reactions:write",                                                         │
+│          "users:read"                                                               │
+│        ]                                                                            │
+│      }                                                                              │
+│    },                                                                               │
+│    "settings": {                                                                    │
+│      "socket_mode_enabled": true,                                                   │
+│      "event_subscriptions": {                                                       │
+│        "bot_events": [                                                              │
+│          "app_mention",                                                             │
+│          "channel_rename",                                                          │
+│          "member_joined_channel",                                                   │
+│          "member_left_channel",                                                     │
+│          "message.channels",                                                        │
+│          "message.groups",                                                          │
+│          "message.im",                                                              │
+│          "message.mpim",                                                            │
+│          "pin_added",                                                               │
+│          "pin_removed",                                                             │
+│          "reaction_added",                                                          │
+│          "reaction_removed"                                                         │
+│        ]                                                                            │
+│      }                                                                              │
+│    }                                                                                │
+│  }
